@@ -1,5 +1,10 @@
-function App() {
-  return <h1>Hello World!</h1>;
-}
+import Disciplina from "./Disciplina"
 
-export default App;
+export default function App(){
+  return(
+    <div>
+      <h1>Olá mundo!</h1>
+      <Disciplina/>
+    </div>
+  )
+}
