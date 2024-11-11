@@ -1,10 +1,10 @@
 import "./Disciplina.css";
 
-function Disciplina(props) {
+function Disciplina({codigo, nome}) {
   return (
     <div className="disciplina">
-      <div>{props.codigo}</div>
-      <div>{props.nome}</div>
+      <div>{codigo}</div>
+      <div>{nome}</div>
     </div>
   );
 }
