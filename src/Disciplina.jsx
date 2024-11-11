@@ -1,6 +1,8 @@
+import "./Disciplina.css";
+
 function Disciplina() {
   return (
-  <div>
+  <div className="disciplina">
     <div>DCC207</div>
     <div>Desenvolvimeto Front End</div>
   </div>
